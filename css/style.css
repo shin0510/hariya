@@ -1,0 +1,777 @@
+img{
+  width: 100%;
+}
+a:hover{
+  opacity: .7;
+}
+.sp{
+  display: none;
+}
+.pc{
+  display: block;
+}
+body{
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header div:nth-child(1){
+  border-bottom: #314A8F 6px solid;
+  padding:1% 0 0.5% 0.5% ;
+}
+header div:nth-child(1) h1{
+  width: 15.78%;
+
+}
+header h2{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:400 ;
+  font-size: min(3.92vw,55px);
+  text-align: center;
+  margin: 1% 0;
+}
+header .view{
+  height:min(62.2vw,872px) ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+header .top-view{
+  background-image: url(../image/top.png);
+}
+header .gyomu-view{
+  background-image: url(../image/gyomu-top.png);
+}
+header .company-view{
+  background-image: url(../image/company-top.png);
+}
+header .faq-view{
+  background-image: url(../image/faq-top.png);
+}
+header .view ul{
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255,255,255,0.6);
+  width: 100%;
+}
+header .view ul li{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:400 ;
+  font-size: min(2.85vw,40px);
+  color: #555555;
+  padding: 1.5% 3%;
+  position: relative;
+}
+
+header .view ul li ::before{
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 80%;
+  background-color: #707070;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+header .view ul li:nth-child(4):after{
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 80%;
+  background-color: #707070;
+  right:  0;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#top div:first-child{
+  padding: 8% 0;
+}
+#top div:first-child h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:600 ;
+  font-size: min(4vw,53px);
+  line-height: min(5.2vw,73px);
+  text-align: center;
+}
+#top div:first-child p{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:400 ;
+  font-size: min(2.57vw,36px);
+  line-height: min(4.78vw,65px);
+  text-align: center;
+  margin-top: 4%;
+}
+
+#top>div:nth-child(2){
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+#top>div:nth-child(2) h2{
+  width:47.6%;
+}
+#top>div:nth-child(2) div{
+  width:50.6%;
+}
+.con-title{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:600 ;
+  font-size: min(3.21vw,45px);
+  margin: 4% 0;
+}
+.con-p{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:400 ;
+  font-size: min(2.14vw,30px);
+  line-height: min(3.14vw,44px);
+}
+
+#top .link{
+  position: relative;
+  width:54.7% ;
+  margin: 7% auto;
+}
+#top .link h4{
+  position: absolute;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:600 ;
+  font-size: min(3.35vw,47px);
+}
+#top .link1 h4{
+  top: 4%;
+  left: 2% ;
+}
+#top .link2 h4{
+  top: 4%;
+  right: 2% ;
+}
+
+footer .otoiawase{
+  display: flex;
+  width: 41.2vw;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+footer .otoiawase a{
+  display: block;
+  border: #000000 1px solid;
+  width: min(19.7vw,276px);
+  height: min(12.3vw,173px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:400 ;
+  font-size: min(1.85vw,26px);
+}
+footer .otoiawase a:nth-child(1) span{
+  display: block;
+  width: 4vw;
+  margin-bottom: 5%;
+}
+footer .otoiawase a:nth-child(2) span{
+  display: block;
+  width: 8.28vw;
+  margin-bottom: 5%;
+}
+footer div:nth-child(2){
+  border-top: #314A8F 6px solid;
+  padding:1% 0 0.5% 0.5% ;
+  text-align: center;
+  margin-top: 5% ;
+}
+footer div:nth-child(2) h1{
+  width: 15.78%;
+  margin: 0 auto;
+}
+footer ul{
+  display: flex;
+  justify-content: center;
+  padding:2% 0 10%;
+}
+footer ul li{
+  padding: 1%;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:400 ;
+  font-size: min(2.21vw,31px);
+}
+
+
+
+#gyomu{
+  max-width: 1276px;
+  width: 91%;
+  margin: 0 auto;
+}
+#gyomu>h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:500 ;
+  font-size: min(3.92vw,55px);
+  text-align: center;
+  margin-top: 3%;
+}
+
+.gyomunaiyou ul {
+ margin: 7% 0;
+}
+.gyomunaiyou ul li {
+  border-bottom:6px solid #8B8B8B ;
+  padding: 7% 0;
+}
+.gyomunaiyou ul li div h3{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:700 ;
+  font-size: min(3.21vw,45px);
+}
+.gyomunaiyou ul li p{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:400 ;
+  font-size: min(2.14vw,30px);
+  line-height: min(3.14vw,44px);
+}
+.gyomunaiyou ul li>h2{
+  width: 49%;
+}
+.gyomunaiyou ul li:nth-child(1) div:nth-child(1){
+  display: flex;
+  justify-content: space-between;
+}
+.gyomunaiyou ul li:nth-child(1) div:nth-child(2){
+  margin:1% 1.3%;
+}
+.gyomunaiyou ul li:nth-child(1) div:nth-child(2) h3{
+  margin-bottom: 2%;
+}
+.gyomunaiyou ul li:nth-child(2),.gyomunaiyou ul li:nth-child(3),.gyomunaiyou ul li:nth-child(4) {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.gyomunaiyou ul li:nth-child(2) div,.gyomunaiyou ul li:nth-child(3) div,.gyomunaiyou ul li:nth-child(4) div{
+  width: 49%;
+}
+.gyomunaiyou ul li:nth-child(2) div h3,.gyomunaiyou ul li:nth-child(3) div h3,.gyomunaiyou ul li:nth-child(4) div h3{
+  margin-bottom: 3%;
+}
+.gyomunaiyou ul li:nth-child(3){
+  flex-direction: row;
+}
+
+.jisseki{
+  border-bottom:6px solid #8B8B8B ;
+  padding-bottom: 7%;
+}
+.jisseki h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:500 ;
+  font-size: min(3.92vw,55px);
+  text-align: center;
+}
+.jisseki ul{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:500 ;
+  font-size: min(2.85vw,40px);
+  padding-left: 15%;
+  margin: 4% 0 2%;
+}
+.jisseki h3{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.jisseki h3 div:nth-child(1){
+  width: 26.1%;
+}
+.jisseki h3 div:nth-child(2){
+  width: 26.1%;
+}
+.jisseki h3 div:nth-child(3){
+  width: 46.4%;
+}
+.jisseki h3 div:nth-child(4){
+  width: 44%;
+  margin-top: 0.5%;
+}
+.jisseki h3 div:nth-child(5){
+  width: 55.2%;
+  margin-top: 0.5%;
+}
+
+.meka{
+  padding: 3%;
+  border-bottom:6px solid #8B8B8B ;
+  margin-bottom: 5%;
+}
+.meka h2{
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:500 ;
+  font-size: min(3.92vw,55px);
+}
+.meka h3{
+  margin: 3% auto;
+  width:71.9% ;
+}
+.meka p{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:500 ;
+  font-size: min(2.85vw,40px);
+  text-align: center;
+}
+
+
+#company .aisatu{
+  width: 91.7%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 5% 0;
+}
+#company .aisatu  h2{
+  width: 45.6%;
+  
+}
+#company .aisatu >div{
+  width: 51.7%;
+}
+#company .aisatu >div h3{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:700 ;
+  font-size: min(3.21vw,45px);
+  margin-bottom: 2%;
+}
+#company .aisatu >div p{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:500 ;
+  font-size: min(1.64vw,23px);
+  line-height: min(2.35vw,33px);
+}
+
+.gaiyou{
+  width: 91.4%;
+  margin: 0 auto;
+  border-top:6px solid #8B8B8B ;
+  border-bottom:6px solid #8B8B8B ;
+  padding: 5% 0;
+}
+.gaiyou h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:700 ;
+  font-size: min(3.21vw,45px);
+  text-align: center;
+  margin-bottom: 3%;
+}
+.gaiyou table,td,th{
+  width:78.8% ;
+  margin: 0 auto;
+  border: #707070 1px solid;
+  border-collapse: collapse;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:500 ;
+  font-size: min(2.5vw,35px);
+}
+td:nth-child(1){
+  width:35.28% ;
+  text-align: center;
+  align-items: center;
+  padding: 1% 0;
+  
+}
+td:nth-child(2){
+  width:64.71% ;
+  padding: 1% 0 1% 2%;
+}
+tr:nth-child(3) td:nth-child(2),tr:nth-child(4) td:nth-child(2){
+  font-size: min(1.57vw,22px);
+  line-height: min(2.27vw,31px);
+}
+tr:nth-child(3) td:nth-child(1),tr:nth-child(4) td:nth-child(1){
+  line-height: min(4.5vw,63px);
+}
+
+.enkaku{
+  width: 91.4%;
+  margin: 0 auto;
+  border-bottom:6px solid #8B8B8B ;
+  padding: 5% 0;
+  margin-bottom: 5%;
+}
+.enkaku h2{
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:700 ;
+  font-size: min(3.21vw,45px);
+  text-align: center;
+  margin-bottom: 3%;
+}
+.enkaku>div{
+  margin-left:16.5% ;
+  display: flex;
+  align-items: center;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:400 ;
+  font-size: min(2.5vw,35px);
+  
+}
+.enkaku>div h3{
+  width: 3.76%;
+}
+.enkaku>div div{
+  margin-left: 2.5%;
+  width: 93%;
+}
+
+.enkaku>div h5{
+  margin-left: 4.2%;
+  margin-bottom: 1.2%;
+}
+#faq>h2{
+  text-align: center;
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:400 ;
+  font-size: min(2.57vw,36px);
+  line-height: min(4.64vw,65px);
+  margin: 4% 0;
+}
+.accordion{
+  width: 91.1%;
+  margin: 5% auto;
+  border-top:6px solid #8B8B8B ;
+  border-bottom:6px solid #8B8B8B ;
+  padding: 2% 0;
+
+}
+.accordion ul{
+  width: 91.7%;
+  margin: 0 auto;
+}
+.accordion ul li{
+  margin: 3% 0;
+}
+.accordion ul li h2{
+  background-image: url(../image/faq-back.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: min(7.71vw,101px);
+  display: flex;
+  align-items: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:400 ;
+  font-size: min(2.85vw,40px);
+  padding-left: 2%;
+  cursor: pointer;
+}
+.accordion ul li>div{
+  display: none;
+}
+.accordion ul li>div div{
+  margin: 3% auto;
+  width:83.6% ;
+}
+.accordion ul li>div div p{
+  display: flex;
+  justify-content: space-between;
+}
+.accordion ul li>div div p span.main-span{
+  display: block;
+  width: 12%;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight:400 ;
+  font-size: min(2.5vw,35px);
+}
+.accordion ul li>div div p span.sub-span{
+  display: block;
+  width: 85.7%;
+  font-weight:400 ;
+  font-size: min(2.5vw,35px);
+  line-height: min(3.64vw,51px);
+}
+.accordion ul li>div div p:nth-child(1) span.sub-span{
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.accordion ul li>div div p:nth-child(2) span.sub-span{
+  font-family: 'Noto Serif JP', sans-serif;
+}
+.accordion ul li>div div p:nth-child(2){
+  margin-top:1% ;
+}
+
+.accordion ul li>div div p span.red{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:700 ;
+  font-size: min(2.5vw,35px);
+  color: #FF0000;
+}
+.accordion ul li>div div p span.blue{
+  font-family: 'Noto Serif JP', sans-serif;
+  font-weight:700 ;
+  font-size: min(2.5vw,35px);
+  color: #0008FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:500px){
+  .pc{
+    display: none !important;
+  }
+  .sp{
+    display: block;
+  }
+.openbtn1{
+  position: fixed;/*ボタン内側の基点となるためrelativeを指定*/
+  cursor: pointer;
+    width: 65px;
+    height:65px;
+  border-radius: 5px;
+  top: -4%;
+  right: 0%;
+  z-index: 100;
+}
+
+/*ボタン内側*/
+.openbtn1 span{
+    display: inline-block;
+    transition: all .4s;/*アニメーションの設定*/
+    position: absolute;
+    left: 14px;
+    height: 3px;
+    border-radius: 2px;
+  background: #000;
+    width: 65%;
+  }
+
+.openbtn1 span:nth-of-type(1) {
+  top:30%;
+
+}
+
+.openbtn1 span:nth-of-type(2) {
+  top:50%;
+  transform: translateY(-50%); 
+}
+
+.openbtn1 span:nth-of-type(3) {
+  top:70%;
+}
+
+/*activeクラスが付与されると線が回転して×に*/
+
+.openbtn1.active span:nth-of-type(1) {
+    top: 40%;
+    left: 18px;
+    transform: translateY(6px) rotate(-45deg);
+    width: 65%;
+}
+
+.openbtn1.active span:nth-of-type(2) {
+  opacity: 0;/*真ん中の線は透過*/
+}
+
+.openbtn1.active span:nth-of-type(3){
+    top: 60%;
+    left: 18px;
+    transform: translateY(-6px) rotate(45deg);
+    width: 65%;
+}
+
+.overlay{
+  opacity: 0;
+  transition: 0.5s;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlay.active{
+  opacity: 1;
+  z-index: 99;
+}
+.overlay ul{
+  width: 100%;
+}
+.overlay ul li{
+  text-align: center;
+  font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 600;
+    font-size: 5vw;
+    color: #555555;
+    
+}
+.overlay ul li a{
+ display: block;
+ padding: 3% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #top>div:nth-child(2) {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+#top>div:nth-child(2) h2 {
+    width: 55%;
+}
+#top>div:nth-child(2) div {
+    width: 55%;
+}
+footer .otoiawase {
+    width: 54.7%;
+}
+footer .otoiawase a {
+    display: block;
+    border: #000000 1px solid;
+    width: 26vw;
+    height: 17vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    font-size: min(1.85vw,26px);
+}
+
+.gyomunaiyou ul li:nth-child(2), .gyomunaiyou ul li:nth-child(3), .gyomunaiyou ul li:nth-child(4) {
+    flex-direction: column;
+    align-items: center;
+}
+.gyomunaiyou ul li>h2 {
+    width: 100%;
+}
+.gyomunaiyou ul li:nth-child(2) div, .gyomunaiyou ul li:nth-child(3) div, .gyomunaiyou ul li:nth-child(4) div {
+    width: 100%;
+}
+#company .aisatu {
+    flex-direction: column;
+    align-items: center;
+}
+#company .aisatu h2 {
+    width: 100%;
+}
+#company .aisatu div {
+    width: 100%;
+    margin-top: 5%;
+}
+#company .aisatu >div p {
+   
+    line-height: 17px;
+}
+.gaiyou table, td, th {
+    width: 85%;
+    margin: 0 auto;
+    border: #707070 1px solid;
+    border-collapse: collapse;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 500;
+    font-size: min(2.5vw,35px);
+}
+tr:nth-child(3) td:nth-child(2), tr:nth-child(4) td:nth-child(2) {
+    line-height: 15px;
+}
+.accordion ul li>div div p {
+    flex-direction: column;
+    align-items: center;
+}
+.enkaku>div {
+    margin-left: 12.5%;
+    display: flex;
+    align-items: center;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-weight: 400;
+    font-size: min(2.5vw,35px);
+}
+.accordion ul li>div div p span.main-span {
+    width: 100%;
+    margin-top: 2%;
+}
+.accordion ul li>div div p span.sub-span {
+    width: 100%;
+    margin-top: 2%;
+}
+
+}
